@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **My personal website**
 
-- 🌱 I’m currently learning **C programming, C++**
+- 🌱 I’m currently learning **C programming, C++**, Python
 
 - 👯 I’m looking to collaborate on **Fintech, Ecommerce etc**
 
