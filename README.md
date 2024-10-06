@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **C programming, C++**, Python
 
-- 👯 I’m looking to collaborate on **Fintech, Ecommerce etc**
+- 👯 I’m looking to collaborate on **Fintech, Ecommerce Mobile**
 
 - 📝 I regularly write articles on [https://medium.com/@lawanijeremia](https://medium.com/@lawanijeremia)
 
