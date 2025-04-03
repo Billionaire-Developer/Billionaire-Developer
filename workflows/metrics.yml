@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 6 * * *"}]  # Runs daily at 6 AM UTC
   workflow_dispatch:
   push:
     branches:
@@ -22,6 +22,7 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
+    if: github.ref == 'refs/heads/main'  # Runs only on the main branch
 
   github-metrics:
     runs-on: ubuntu-latest
@@ -35,6 +36,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+    if: github.ref == 'refs/heads/main'
 
   lines:
     runs-on: ubuntu-latest
@@ -46,6 +48,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: repositories
           plugin_lines: yes
+    if: github.ref == 'refs/heads/main'
 
   acti_comm:
     runs-on: ubuntu-latest
@@ -59,6 +62,7 @@ jobs:
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+    if: github.ref == 'refs/heads/main'
 
   iso_calendar:
     runs-on: ubuntu-latest
@@ -74,6 +78,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+    if: github.ref == 'refs/heads/main'
 
   habits:
     runs-on: ubuntu-latest
@@ -92,6 +97,7 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_charts: yes
           plugin_habits_trim: yes
+    if: github.ref == 'refs/heads/main'
 
   issue_pr_lang:
     runs-on: ubuntu-latest
@@ -107,6 +113,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
+    if: github.ref == 'refs/heads/main'
 
   repositories:
     runs-on: ubuntu-latest
@@ -120,4 +127,6 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+    if: github.ref == 'refs/heads/main'
+
 
