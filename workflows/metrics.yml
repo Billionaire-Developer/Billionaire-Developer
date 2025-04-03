@@ -15,7 +15,7 @@ jobs:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           base: achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B
@@ -31,7 +31,7 @@ jobs:
           filename: header.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -55,7 +55,7 @@ jobs:
           filename: acti_comm.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -68,7 +68,7 @@ jobs:
           filename: iso_calendar.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -84,7 +84,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-          user: Billionare-developer
+          user: Billionare-Developer
           base: ""
           template: classic
           plugin_habits: yes
@@ -101,7 +101,7 @@ jobs:
           filename: issue_pr_lang.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -116,7 +116,7 @@ jobs:
           filename: repositories.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionare-developer
+          user: Billionare-Developer
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
