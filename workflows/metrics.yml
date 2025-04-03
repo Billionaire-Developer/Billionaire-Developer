@@ -1,13 +1,12 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
-  push: {branches: ["main"]}
+  push:
+    branches:
+      - main
 
 jobs:
-
   achievements:
     runs-on: ubuntu-latest
     steps:
@@ -16,13 +15,13 @@ jobs:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Billionaire_developer
+          user: billionare-developer
           base: achievements
           plugin_achievements: yes
-          plugin_achievements_threshold: B      # Display achievements with rank B or higher
-          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: compact  # Use compact display
-          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 0
 
   github-metrics:
     runs-on: ubuntu-latest
@@ -30,16 +29,13 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: header.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Billionaire_developer
+          user: billionare-developer
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
   lines:
     runs-on: ubuntu-latest
     steps:
@@ -48,7 +44,7 @@ jobs:
           filename: lines-of-code.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "repositories"
+          base: repositories
           plugin_lines: yes
 
   acti_comm:
@@ -57,30 +53,22 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: acti_comm.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Billionaire_developer
+          user: billionare-developer
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  iso_calender:
+  iso_calendar:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: iso_calender.svg
-          # You'll need to setup a personal token in your secrets.
+          filename: iso_calendar.svg
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Billionaire_developer
+          user: billionare-developer
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -95,15 +83,15 @@ jobs:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
-          user: Billionaire_developer
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          user: billionare-developer
           base: ""
           template: classic
           plugin_habits: yes
-          plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
-          plugin_habits_charts: yes     # Display charts section
-          plugin_habits_trim: yes       # Trim unused hours on daily chart
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
 
   issue_pr_lang:
     runs-on: ubuntu-latest
@@ -111,19 +99,14 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: issue_pr_lang.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Billionaire_developer
+          user: billionare-developer
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
-
 
   repositories:
     runs-on: ubuntu-latest
@@ -131,13 +114,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: Billionaire_developer
+          user: billionare-developer
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
