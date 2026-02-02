@@ -22,11 +22,13 @@
 <a href="https://medium.com/@lawanijeremiah23" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@lawanijeremiah23" height="30" width="40" /></a>
 </p>
 
-<p><img align="left" src="iso_calender.svg" alt="billionaire-developer" width="80%"/></p>
+<p align="left">
+<img src="iso_calender.svg" alt="billionaire-developer" width="45%"/>
+<img src="repositories.svg" alt="billionaire-developer" width="45%"/>
+
+</p>
 
 <p>&nbsp;<img align="center" src="github-habits.svg" alt="billionaire-developer" /></p>
-
-<p><img align="center" src="repositories.svg" alt="billionaire-developer" /></p>
 
 
 <h3 align="left">Languages and Tools:</h3>
