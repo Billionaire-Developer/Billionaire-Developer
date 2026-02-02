@@ -5,10 +5,8 @@
     <img src="achievements.svg" alt="billionaire-developer" width="80%" />
 </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="issue_pr_lang.svg" alt="billionaire-developer" /></a> </p>
-
-<p align="left"> 
-    <img src="acti_comm.svg" alt="billionairedeve" />
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="issue_pr_lang.svg" alt="billionaire-developer" width="45%"/></a> 
+<img src="acti_comm.svg" alt="billionairedeve" width="45%"/>
 </p>
 
 
