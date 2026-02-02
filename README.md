@@ -7,23 +7,6 @@
 
 <p align="left"> <a href="https://twitter.com/billionairedeve" target="blank"><img src="acti_comm.svg" alt="billionairedeve" /></a> </p>
 
-- 🔭 I’m currently working on **Remote Hiring**
-
-- 👯 I’m looking to collaborate on **Tools and Technology to make company grow**
-
-- 🤝 I’m looking for help with **Getting more Gigs**
-
-- 👨‍💻 All of my projects are available at [https://billionaire-developer.vercel.app/](https://billionaire-developer.vercel.app/)
-
-- 📝 I regularly write articles on [https://medium.com/@lawanijeremiah23](https://medium.com/@lawanijeremiah23)
-
-- 💬 Ask me about **React, Next.js, JavaScript and C#**
-
-- 📫 How to reach me **lawanijeremiah23@gmail.com**
-
-- 📄 Know about my experiences [https://drive.google.com/file/d/1W0Z55wEXhh6qAuTMn2XEzM0SJsEn8twf/view?usp=sharing](https://drive.google.com/file/d/1W0Z55wEXhh6qAuTMn2XEzM0SJsEn8twf/view?usp=sharing)
-
-- ⚡ Fun fact **I think I am Funny!**
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
