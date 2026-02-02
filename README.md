@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="iso_calender.svg" alt="billionaire-developer" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="github-habits.svg" alt="billionaire-developer" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="achievements.svg" alt="billionaire-developer" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/billionairedeve" target="blank"><img src="https://img.shields.io/twitter/follow/billionairedeve?logo=twitter&style=for-the-badge" alt="billionairedeve" /></a> </p>
+<p align="left"> <a href="https://twitter.com/billionairedeve" target="blank"><img src="acti_comm.svg" alt="billionairedeve" /></a> </p>
 
 - 🔭 I’m currently working on **Remote Hiring**
 
