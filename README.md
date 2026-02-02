@@ -1,11 +1,14 @@
 <h1 align="center">Hi 👋, I'm Billionaire-Developer</h1>
 <h3 align="center">A passionate full-stack developer from Africa</h3>
 
-<p align="left"> <img src="achievements.svg" alt="billionaire-developer" /> </p>
+<p align="left"> 
+    <img src="achievements.svg" alt="billionaire-developer" /> 
+    <img src="acti_comm.svg" alt="billionairedeve" />
+</p>
 
 <p align="right"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="issue_pr_lang.svg" alt="billionaire-developer" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/billionairedeve" target="blank"><img src="acti_comm.svg" alt="billionairedeve" /></a> </p>
+<p align="left">  </p>
 
 
 ### Blogs posts
