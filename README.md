@@ -1,14 +1,15 @@
 <h1 align="center">Hi 👋, I'm Billionaire-Developer</h1>
 <h3 align="center">A passionate full-stack developer from Africa</h3>
 
-<p align="left"> 
-    <img src="achievements.svg" alt="billionaire-developer" width="60%" /> 
-    <img src="acti_comm.svg" alt="billionairedeve" width="40%"/>
+<p align="center"> 
+    <img src="achievements.svg" alt="billionaire-developer" width="80%" />
 </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="issue_pr_lang.svg" alt="billionaire-developer" /></a> </p>
 
-<p align="left">  </p>
+<p align="left"> 
+    <img src="acti_comm.svg" alt="billionairedeve" />
+</p>
 
 
 ### Blogs posts
@@ -25,7 +26,7 @@
 
 <p><img align="left" src="lines-of-code.svg" alt="billionaire-developer" /></p>
 
-<p>&nbsp;<img align="center" src="achievements.svg" alt="billionaire-developer" /></p>
+<p>&nbsp;<img align="center" src="github-habits.svg" alt="billionaire-developer" /></p>
 
 <p><img align="center" src="issue_pr_lang.svg" alt="billionaire-developer" /></p>
 
