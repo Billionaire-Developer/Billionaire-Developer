@@ -44,4 +44,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=billionaire-developer&show_icons=true&locale=en" alt="billionaire-developer" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=billionaire-developer&" alt="billionaire-developer" /></p>
+<p><img align="center" src="lines-of-code.svg" alt="billionaire-developer" /></p>
