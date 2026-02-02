@@ -44,4 +44,4 @@
 
 <p>&nbsp;<img align="center" src="achievements.svg" alt="billionaire-developer" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bi&" alt="billionaire-developer" /></p>
+<p><img align="center" src="issue_pr_lang.svg" alt="billionaire-developer" /></p>
